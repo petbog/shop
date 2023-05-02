@@ -20,3 +20,20 @@
     line-height: 15px;
     color: #576067;
 }
+.list{
+    list-style: none;
+    margin: 0 0 10px 0;
+}
+.categories{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #576067;
+    text-decoration: none;
+}
+.list_box{
+    margin: 33px 0 116px 24px;
+}
+.activ{
+    color: #8B57C6;
+}
