@@ -1,0 +1,22 @@
+.sidebar{
+    width: 304px;
+    height: 423px;
+    background-color: #191919;
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+.title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    padding: 25px 0 0 24px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #576067;
+}

@@ -1,9 +1,11 @@
-// const { configureStore } = require("@reduxjs/toolkit")
+import categories from "./slice/CategoriesSlice"
+const { configureStore } = require("@reduxjs/toolkit")
 
 
 
-// const store = configureStore({
-// reducer:{
-//     dsadad
-// }
-// })
+
+export const store = configureStore({
+    reducer: {
+        categories,
+    }
+})
