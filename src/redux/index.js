@@ -1,9 +1,9 @@
-const { configureStore } = require("@reduxjs/toolkit")
+// const { configureStore } = require("@reduxjs/toolkit")
 
 
 
-const store = configureStore({
-reducer:{
-    
-}
-})
+// const store = configureStore({
+// reducer:{
+//     dsadad
+// }
+// })

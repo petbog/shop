@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #191919;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.developed {
+    display: flex;
+}
+
+.text {
+    color: #576067;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+.name{
+    color: #6C3EB8;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;  
+    margin-left: 13px;
+}
