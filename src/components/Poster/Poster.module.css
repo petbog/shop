@@ -1,0 +1,50 @@
+.poster {
+    width: 950px;
+    height: 423px;
+    background-color: #191919;
+    border-radius: 10px;
+    position: relative;
+}
+.title {
+    color: #616E74;
+    font-weight: 900;
+    font-size: 130px;
+    padding: 0 0 0 35px;
+    margin: -28px 0 0 0;
+}
+
+.year {
+    padding: 0 0 0 42px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #616E74;
+    margin: -4px 0 0 0;
+}
+
+.text {
+    max-width: 481px;
+    color: #F6F6F7;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 51px;
+    padding: 0 0 0 39px;
+    margin: 10px 0 0px 0;
+}
+
+.button {
+    width: 108px;
+    border-radius: 10px;
+    background-color: #6C3EB8;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 9px 0px 11px 29px;
+    margin: 43px 0 0 36px;
+    cursor: pointer;
+}
+.computer{
+    position: absolute;
+    top: 84px;
+    right: 51px;
+}

@@ -4,6 +4,11 @@ import Header from "../../components/Header/Header"
 import Sidebar from "../../components/Sidebar/Sidebar"
 import { GetCategories } from "../../redux/slice/CategoriesSlice"
 import { useEffect } from "react"
+import Poster from "../../components/Poster/Poster"
+import classes from '../Home.module.css'
+import Products from "../../components/Products/Products"
+import Recommended from "../../components/Recommended/Recommended"
+
 
 
 
@@ -16,9 +21,12 @@ const Categories = () => {
     return (
         <div className="">
             <Header />
-            <div>
+            <div  className={classes.container}>
                 <Sidebar />
+                <Poster/>
             </div>
+            <Products />
+            <Recommended />
             <Footer />
         </div>
     )

@@ -12,7 +12,7 @@ const Sidebar = () => {
             </div>
             <div className={classes.list_box}>
                 {
-                    item.map(({ id, name }) =>
+                    item.slice(0,5).map(({ id, name }) =>
                         <li className={classes.list} key={id}>
                             <NavLink className={({ isActive }) =>
                                 `${classes.categories} ${isActive ? classes.activ : ""}`} to={`/categories/${id}`}>{name}</NavLink>
