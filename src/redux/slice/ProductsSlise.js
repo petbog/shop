@@ -28,7 +28,7 @@ export const ProductsSlise = createSlice({
         },
         [getProducts.fulfilled]: (state, action) => {
             state.status = 'success'
-            state.item = action.payload
+            state.products = action.payload
 
         },
         [getProducts.rejected]: (state, action) => {
