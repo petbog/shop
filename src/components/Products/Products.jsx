@@ -6,7 +6,7 @@ const Products = ({ title }) => {
     return (
         <div className={classes.products}>
             <div className={classes.title}>
-                <div className={classes.title_inner}>Trending</div>
+                <div className={classes.title_inner}>{title}</div>
             </div>
             <div className={classes.box}>
                 <div className="">

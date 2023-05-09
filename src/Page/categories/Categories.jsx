@@ -6,8 +6,11 @@ import { GetCategories } from "../../redux/slice/CategoriesSlice"
 import { useEffect } from "react"
 import Poster from "../../components/Poster/Poster"
 import classes from '../Home.module.css'
-import Products from "../../components/Products/Products"
 import Recommended from "../../components/Recommended/Recommended"
+import Banner from "../../components/Banner/Banner"
+import Product_top from "../../components/Product_top/Product_top"
+import Product_bottom from "../../components/Product_bottom/Product_bottom"
+import { getProducts } from './../../redux/slice/ProductsSlise';
 
 
 
@@ -17,6 +20,7 @@ const Categories = () => {
 
     useEffect(() => { 
         dispatch(GetCategories())
+        dispatch(getProducts())
     }, [dispatch])
     return (
         <div className="">
@@ -25,8 +29,10 @@ const Categories = () => {
                 <Sidebar />
                 <Poster/>
             </div>
-            <Products />
+            <Product_top />
             <Recommended />
+            <Banner />
+            <Product_bottom  />
             <Footer />
         </div>
     )

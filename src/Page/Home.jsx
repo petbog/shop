@@ -6,25 +6,31 @@ import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { GetCategories } from './../redux/slice/CategoriesSlice';
 import Poster from './../components/Poster/Poster';
-import Products from '../components/Products/Products';
 import Recommended from '../components/Recommended/Recommended';
+import Banner from '../components/Banner/Banner';
+import Product_top from '../components/Product_top/Product_top'
+import Product_bottom from '../components/Product_bottom/Product_bottom'
+import { getProducts } from './../redux/slice/ProductsSlise';
 
 const Home = () => {
     const dispatch = useDispatch()
 
     useEffect(() => { 
         dispatch(GetCategories())
+        dispatch(getProducts())
     }, [dispatch])
 
     return (
         <div className="">
             <Header />
-            <div className={classes.main_container}>
+            <div className={classes.container}>
                 <Sidebar />
                 <Poster/>
             </div>
-            <Products />
+            <Product_top />
             <Recommended />
+            <Banner />
+            <Product_bottom />
             <Footer />
         </div>
     )

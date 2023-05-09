@@ -4,7 +4,7 @@ const { createSlice, createAsyncThunk } = require("@reduxjs/toolkit");
 
 
 export const GetCategories = createAsyncThunk(
-    'search/SearchVideo',
+    'categories/GetCategories',
     async function () {
         try {
             const { data } = await axios.get(`https://api.escuelajs.co/api/v1/categories`)

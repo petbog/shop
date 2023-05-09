@@ -1,0 +1,66 @@
+.banner {
+    height: 570px;
+    background-color: #191919;
+    margin: 0 0 30px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.box_text {
+    position: relative;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 77px;
+    color: #6C3EB8;
+    margin: 46px 0 0 146px;
+}
+
+.title_bold {
+    margin: 0;
+    font-size: 177px;
+    line-height: 1;
+}
+
+.buttom {
+    width: 93px;
+    border-radius: 10px;
+    background-color: #6C3EB8;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 9px 0px 11px 29px;
+    cursor: pointer;
+    margin: 52px 0 0 274px;
+}
+
+.img_kross {
+    position: absolute;
+    top: 318px;
+    left: -31px;
+}
+
+.img_ps {
+    position: absolute;
+    bottom: -29px;
+    right: -177px;
+}
+
+.box_title {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.text_salle {
+    position: absolute;
+    top: 514px;
+    left: 904px;
+}
+.text_color{
+    color:#6C3EB8;
+    font-weight: 500;
+}
