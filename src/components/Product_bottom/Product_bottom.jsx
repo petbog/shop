@@ -1,4 +1,4 @@
-import Products from "../Products/Products"
+
 import classes from '../Products/Products.module.css'
 
 const Product_bottom = () => {
@@ -7,7 +7,7 @@ const Product_bottom = () => {
             <div className={classes.title}>
                 <div className={classes.title_inner}>Less than 100$</div>
             </div>
-            <Products />
+            {/* <Products /> */}
             <div className={classes.button}>
                 <div className={classes.button_inner}>See more</div>
             </div>

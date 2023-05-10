@@ -5,7 +5,9 @@ export const getProducts = createAsyncThunk(
      'products/getProducts',
 async function(){
     try {
-        const {data}=await axios.get(` https://api.escuelajs.co/api/v1/products`)
+        // const {data}=await axios.get(` https://api.escuelajs.co/api/v1/products`)
+        const {data}=await axios.get(` https://fakestoreapi.com/products`)
+        console.log(data)
         return data
     } catch (error) {
         console.log(error)
